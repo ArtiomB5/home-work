@@ -1,0 +1,45 @@
+.affairs {
+    padding-left: 10px;
+    max-width: 300px;
+}
+.affairs__buttonsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.affairs__button {
+    display: block;
+    flex-grow: 1;
+    cursor: pointer;
+    background-color: #4B7F52;
+    color: white;
+    font-weight: 700;
+}
+.affair {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.affair:nth-child(2n+1) {
+    background-color: #C9FFE2;
+}
+.affair__content {
+    padding: 5px;
+}
+.affair__deleteButton {
+    background-color: #4B7F52;
+    cursor: pointer;
+    border-color: #4B7F52;
+    color: white;
+    font-weight: 700;
+}
+.affair__deleteButton:hover {
+    background-color: #96E8BC;
+    color: black;
+}
+.affairs__button:hover {
+    background-color: #96E8BC;
+    color: black;
+}
