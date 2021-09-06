@@ -19,7 +19,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
       return(
         <option key={index}>{item}</option>
       )
-    }); // map options with key
+    });
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
       if (onChangeOption) {
