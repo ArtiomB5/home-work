@@ -9,7 +9,6 @@ function HW7() {
 
     return (
         <div>
-            <hr/>
             homeworks 7
 
             {/*should work (должно работать)*/}
@@ -29,11 +28,9 @@ function HW7() {
                 />
             </div>
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperSelect/>*/}
             {/*<AlternativeSuperRadio/>*/}
-            <hr/>
         </div>
     )
 }
