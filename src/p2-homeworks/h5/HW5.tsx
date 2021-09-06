@@ -4,18 +4,17 @@ import Routes from './Routes'
 import {HashRouter} from "react-router-dom";
 
 function HW5() {
-    return (
-        <div>
-            {/*в gh-pages лучше работает HashRouter*/}
-            <HashRouter>
+  return (
+    <div>
+      <HashRouter>
 
-            <Header/>
+        <Header/>
 
-            <Routes/>
+        <Routes/>
 
-            </HashRouter>
-        </div>
-    )
+      </HashRouter>
+    </div>
+  )
 }
 
 export default HW5

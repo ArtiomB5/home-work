@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Karla";
+  src: url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+}
+
+.wrapper {
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 1px solid #cf4936;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #cf4936;
+
+    .navLink {
+      color: #dcdcdb;
+      text-transform: capitalize;
+      font-family: 'Karla', sans-serif;
+      text-decoration: inherit;
+      padding: 10px 15px;
+      background-color: #2f2d25;
+      border: 1px solid #2f2d25;
+      min-width: 10%;
+      text-align: center;
+
+      &:hover {
+        border: 1px solid #cf4936;
+        color: #cf4936;
+        font-weight: 700;
+        background-color: #dcdcdb;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper{
+    .navbar {
+      flex-direction: column;
+
+      .navLink {
+        width: 85%;
+        margin: 3px auto;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

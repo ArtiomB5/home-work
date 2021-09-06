@@ -19,9 +19,13 @@ function HW4() {
     const [checked, setChecked] = useState<boolean>(false)
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(!e.currentTarget.checked)
 
+    const borderStyle = {
+        borderBottom: '1px solid #cf4936',
+        padding: '10px'
+    }
+
     return (
-        <div>
-            <hr/>
+        <div style={borderStyle}>
             homeworks 4
 
             <div className={s.column}>
@@ -67,12 +71,10 @@ function HW4() {
                 <SuperCheckbox checked={checked} onChange={testOnChange}/>
             </div>
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperInputText/>*/}
             {/*<AlternativeSuperButton/>*/}
             {/*<AlternativeSuperCheckbox/>*/}
-            <hr/>
         </div>
     )
 }
